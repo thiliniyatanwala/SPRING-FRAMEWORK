@@ -9,15 +9,15 @@
 
 
     <!-- DEPENDENCY INJECTTION bean definitions here -->
-    <bean id = "adrs" class = "DI_Address" >
+    <bean id = "adrs" class = "Address" >
         <property name = "city" value = "Kurunegala"/>
         <property name = "state" value = "North Western"/>
         <property name = "zipcode" value = "6000"/>
     </bean>
 
-    <bean id = "emp2" class = "DI_Employee" >
+    <bean id = "emp1" class = "Employee" >
         <property name = "eid" value = "001"/>
-        <property name = "ename" value = "Asith Yatanwala"/>
+        <property name = "name" value = "Asith Yatanwala"/>
         <!-- Constructor Injection -->
         <!-- <constructor-arg ref = "adrs"/> -->
 
